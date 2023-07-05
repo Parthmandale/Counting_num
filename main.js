@@ -1,4 +1,4 @@
-(function() {  //real time execution
+function choose() {  //real time execution
     const buttons = document.querySelectorAll('.counterBtn');
     let count = 0;
 
@@ -22,4 +22,5 @@
             }
         });
     });
-})();
+}
+choose();
